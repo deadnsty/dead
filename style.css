@@ -1,0 +1,222 @@
+p{ color:black; font-size:  15px; }
+a:hover{ color:#800000;
+text-decoration: underline;}
+.menu > li{
+width: 150px;
+height: 50px;
+border: 1px solid #000;
+list-style-type: none; 
+}
+.menu li ul {
+    display: none;
+}
+.menu li:hover ul{
+display: block;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin-top: 50px;
+    margin-left: 100px;
+    outline: 4px solid #000;
+}
+.logo:hover {
+    outline:none; 
+}
+.product {
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    float: left;
+}
+.footer{
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+
+.product_1{
+    background-color: #ccc;
+}
+.product_2{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+.container{
+width: 700px;
+margin: 0 auto;
+}
+.header{
+height: 200px;
+background-color: darkcyan;
+}
+.logo{
+width: 50px;
+height: 50px;
+background-color: darkred;
+float: left;
+position: absolute;
+top: 50px;
+left: 100px;
+}
+footer{
+    color: white;
+    text-align: right;
+}
+h1
+{
+    color: darkorange;
+    font-size: 45px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+span{
+    color:darkorange;
+    opacity: 0.2;
+    animation-name:q;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    margin: 0;
+    padding: 0;
+font-size: 50px;
+
+
+}
+@keyframes q{
+    0%,100%{
+    opacity: 1;
+    text-shadow:
+    0 0 10px #ffa500,
+    0 0 20px #ffa500,
+    0 0 40px #ffa500;
+
+    }  
+    7%,92%{
+        opacity: 0.1;
+        text-shadow: none;
+        
+    }
+    
+}
+p.first{
+    color:darkorange;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+z.asimov{
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    color: darkorange;
+    text-align: center;
+}
+h3{
+    color: darkorange;
+    text-align: center;
+}
+h4{
+    color: darkorange;
+    text-align: center;
+}
+h5{
+    color: darkorange;
+    text-align: center;
+}
+h6{
+    text-align: center;
+    color: darkorange;
+}
+p{
+    color: darkorange;
+    text-align: center;
+    
+}
+h1{
+    color: darkorange;
+}
+.weapon{
+    
+    background-color: #696F9B;
+     border:5px dashed darkorange;
+     margin-left: 10px;
+     padding: 5px;
+     border-radius: 60px;
+     box-shadow: 10px 10px 10px;
+     display:block;
+margin:auto;
+padding: 5px;
+
+
+     
+}
+.weapon:hover{
+    cursor: pointer;
+    box-shadow: 18px 16px 15px;
+}
+button{
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 10px 10px 10px;
+    display:block;
+    border: darkorange;
+    border-radius: 5px;
+margin:auto;
+padding:5px;
+opacity: 0.8;
+
+
+
+}
+img{
+    margin: auto;
+    padding: 0px;
+    border:5px solid darkorange;
+    box-shadow: 5px 5px 5px black;
+    display:block;
+margin:auto;
+
+}
+img:hover{
+    box-shadow: 10px 10px 10px;
+    transform: rotate(1deg);
+}
+ a
+ {
+     color:darkorange;
+     text-align:left;
+     display:block;
+margin:0;
+padding: 0px;
+
+}
+
+ul
+{
+    color: darkorange;text-align: left;
+    font-size: 20px;
+    border: 30px solid darkorange;
+    border-width:5px 10px 15px 3px;
+    padding:15px;
+    left:auto;
+    top: 55px;
+    width: 200px;
+    height: 400px;
+    display:block;
+    position:absolute;
+    box-shadow:10px 10px 20px;
+      }
+
+#mail{
+    text-align: center;
+    font-size: 25px;
+    
+    
+}
+#d{
+    position: absolute;
+}
